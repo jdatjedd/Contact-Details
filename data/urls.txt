@@ -1,0 +1,30 @@
+# One store URL per line. Lines starting with # are ignored.
+# Example placeholders -- replace with real store URLs.
+https://www.shoppersstop.com
+https://www.pantaloons.com
+https://www.maxfashion.in
+https://www.manyavar.com
+https://www.fabindia.com
+https://www.blackberrys.com
+https://www.peterengland.com
+https://www.louisphilippe.com
+https://www.vanheusenindia.com
+https://www.allensolly.com
+https://www.woodlandworldwide.com
+https://www.bata.com/in/
+https://www.metroshoes.com
+https://www.mochishoes.com
+https://www.inc5shoes.com
+https://www.cantabilinternational.com
+https://www.montecarlo.in
+https://www.spykar.com
+https://www.campusshoes.com
+https://www.sparxshoes.com
+https://www.khadims.com
+https://www.libertyshoesonline.com
+https://www.westsidestores.com
+https://www.wforwoman.com
+https://www.aurelia.com
+https://www.chumbak.com
+https://www.libas.in
+https://www.oxemberg.com
