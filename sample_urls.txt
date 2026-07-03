@@ -1,0 +1,4 @@
+# One store URL per line. Lines starting with # are ignored.
+# Example placeholders -- replace with real store URLs.
+https://example-store-1.myshopify.com
+https://example-store-2.com
