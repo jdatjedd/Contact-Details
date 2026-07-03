@@ -40,7 +40,7 @@ RETRYABLE_STATUS = {429, 500, 502, 503, 504}
 class FetchConfig:
     delay_min: float = 1.0       # seconds, minimum delay between requests
     delay_max: float = 3.0       # seconds, maximum delay between requests
-    max_retries: int = 3
+    max_retries: int = 1
     backoff_base: float = 2.0    # exponential backoff base (seconds)
     timeout: float = 15.0
     max_response_bytes: int = 3_000_000  # don't read absurdly large pages
@@ -75,7 +75,7 @@ class Fetcher:
         or None if all retries were exhausted.
         """
         last_exc = None
-        for attempt in range(1, self.config.max_retries + 1):
+        for attempt in range(1, self.config.max_retries):
             self._respect_rate_limit()
             self._last_request_ts = time.time()
             try:
